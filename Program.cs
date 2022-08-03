@@ -1075,8 +1075,8 @@ namespace OgrenciYonetimSistemi
             Console.WriteLine();
             Console.WriteLine("Şubesi:".PadRight(15) + ogre.Subesi);
             Console.WriteLine("Numarası: ".PadRight(15) + ogre.No);
-            Console.WriteLine("Adı:".PadRight(15) + ogre.No);
-            Console.WriteLine("Soyadı:".PadRight(15) + ogre.No);
+            Console.WriteLine("Adı:".PadRight(15) + ogre.Ad);
+            Console.WriteLine("Soyadı:".PadRight(15) + ogre.Soyad);
 
             Console.WriteLine("Doğum tarihi:".PadRight(15) + ogre.DogumTarihi);
             Console.WriteLine("Cinsiyeti:".PadRight(15) + ogre.Cins);
